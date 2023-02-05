@@ -18,3 +18,10 @@ index.html/
 lib/*.txt
 6.#忽略 doc/目录及其所有子目录下的.docx文件
 doc/**/*.docx
+
+git 修改分支 命令
+//远端手动修改 本地执行下列操作
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
